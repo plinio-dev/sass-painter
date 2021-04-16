@@ -1,3 +1,39 @@
 body {
-  background-color: red;
+  color: black;
+  font-family: "Ubuntu", sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1280px;
+}
+.container.container-small {
+  max-width: 800px;
+}
+
+header {
+  width: 100%;
+}
+header .nav-1 {
+  height: 60px;
+  background-color: #ffffff;
+}
+header .nav-2 {
+  height: 80px;
+  background-color: lightgray;
+}
+
+.hero {
+  height: 700px;
+  overflow: hidden;
+}
+.hero img {
+  width: 100%;
+  text-align: center;
 }

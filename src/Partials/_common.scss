@@ -1,0 +1,19 @@
+body {
+  color: $headerTextColor;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+* {
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: $normalContainer;
+
+  &.container-small {
+    max-width: $smallContainer;
+  }
+}
